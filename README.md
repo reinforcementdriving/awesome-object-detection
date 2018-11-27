@@ -1,10 +1,13 @@
 # object-detection
 
+[TOC]
+
 This is a list of awesome articles about object detection.
 
 - R-CNN
 - Fast R-CNN
 - Faster R-CNN
+- Mask R-CNN
 - Light-Head R-CNN
 - Cascade R-CNN
 - SPP-Net
@@ -23,20 +26,35 @@ This is a list of awesome articles about object detection.
 - FPN
 - DSOD
 - RetinaNet
-- MegNet
+- MegDet
 - RefineNet
 - DetNet
 - SSOD
 - CornerNet
+- M2Det
 - 3D Object Detection
 - ZSD（Zero-Shot Object Detection）
 - OSD（One-Shot object Detection）
+- Weakly Supervised Object Detection
+- Softer-NMS
 - 2018
 - Other
 
 Based on handong1587's github: https://handong1587.github.io/deep_learning/2015/10/09/object-detection.html
 
+# Survey
 
+**《Recent Advances in Object Detection in the Age of Deep Convolutional Neural Networks》**
+
+- intro: awesome
+
+
+- arXiv: https://arxiv.org/abs/1809.03193
+
+**《Deep Learning for Generic Object Detection: A Survey》**
+
+- intro: Submitted to IJCV 2018
+- arXiv: https://arxiv.org/abs/1809.02165
 
 # Papers&Codes
 
@@ -130,6 +148,15 @@ Based on handong1587's github: https://handong1587.github.io/deep_learning/2015/
 
 - intro: CVPR 2018. ETH Zurich & ESAT/PSI
 - arxiv: <https://arxiv.org/abs/1803.03243>
+
+## Mask R-CNN
+
+- arxiv: <http://arxiv.org/abs/1703.06870>
+- github(Keras): https://github.com/matterport/Mask_RCNN
+- github(Caffe2): https://github.com/facebookresearch/Detectron
+- github(Pytorch): <https://github.com/wannabeOG/Mask-RCNN>
+- github(MXNet): https://github.com/TuSimple/mx-maskrcnn
+- github(Chainer): https://github.com/DeNA/Chainer_Mask_R-CNN
 
 ## Light-Head R-CNN
 
@@ -317,6 +344,7 @@ Based on handong1587's github: https://handong1587.github.io/deep_learning/2015/
 - github:https://github.com/ayooshkathuria/pytorch-yolo-v3
 - github:https://github.com/ayooshkathuria/YOLO_v3_tutorial_from_scratch
 - github:https://github.com/eriklindernoren/PyTorch-YOLOv3
+- github:https://github.com/ultralytics/yolov3
 
 ## YOLT
 
@@ -585,6 +613,11 @@ https://github.com/Robert-JunWang/Pelee
 - intro: BMVC 2018
 - arXiv: https://arxiv.org/abs/1807.11013
 
+**Object Detection from Scratch with Deep Supervision**
+
+- intro: This is an extended version of DSOD
+- arXiv: https://arxiv.org/abs/1809.09294
+
 ## RetinaNet
 
 **Focal Loss for Dense Object Detection**
@@ -773,6 +806,14 @@ https://github.com/Robert-JunWang/Pelee
 - arXiv: https://arxiv.org/abs/1808.01244
 - github: <https://github.com/umich-vl/CornerNet>
 
+## M2Det
+
+**M2Det: A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network**
+
+- intro: AAAI 2019
+- arXiv: https://arxiv.org/abs/1811.04533
+- github: https://github.com/qijiezhao/M2Det
+
 ## 3D Object Detection
 
 **LMNet: Real-time Multiclass Object Detection on CPU using 3D LiDARs**
@@ -811,7 +852,49 @@ RepMet: Representative-based metric learning for classification and one-shot obj
 - arxiv:https://arxiv.org/abs/1806.04728
 - github: TODO
 
+## Weakly Supervised Object Detection
+
+**Weakly Supervised Object Detection in Artworks**
+
+- intro: ECCV 2018 Workshop Computer Vision for Art Analysis
+- arXiv: https://arxiv.org/abs/1810.02569
+- Datasets: https://wsoda.telecom-paristech.fr/downloads/dataset/IconArt_v1.zip
+
+**Cross-Domain Weakly-Supervised Object Detection through Progressive Domain Adaptation**
+
+- intro: CVPR 2018
+- arXiv: https://arxiv.org/abs/1803.11365
+- homepage: https://naoto0804.github.io/cross_domain_detection/
+- paper: http://openaccess.thecvf.com/content_cvpr_2018/html/Inoue_Cross-Domain_Weakly-Supervised_Object_CVPR_2018_paper.html
+- github: https://github.com/naoto0804/cross-domain-detection
+
+## Softer-NMS
+
+**《Softer-NMS: Rethinking Bounding Box Regression for Accurate Object Detection》**
+
+- intro: CMU & Face++
+- arXiv: https://arxiv.org/abs/1809.08545
+- github: https://github.com/yihui-he/softer-NMS
+
 ## 2018
+
+**DeRPN: Taking a further step toward more general object detection**
+
+- intro: AAAI 2019
+- arXiv: https://arxiv.org/abs/1811.06700
+- github: https://github.com/HCIILAB/DeRPN
+
+**Hybrid Knowledge Routed Modules for Large-scale Object Detection**
+
+- intro: Sun Yat-Sen University & Huawei Noah’s Ark Lab
+- arXiv: https://arxiv.org/abs/1810.12681
+- github: https://github.com/chanyn/HKRM
+
+**《Receptive Field Block Net for Accurate and Fast Object Detection》**
+
+- intro: ECCV 2018
+- arXiv: [https://arxiv.org/abs/1711.07767](https://arxiv.org/abs/1711.07767)
+- github: [https://github.com/ruinmessi/RFBNet](https://github.com/ruinmessi/RFBNet)
 
 **Deep Feature Pyramid Reconfiguration for Object Detection**
 
